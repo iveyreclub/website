@@ -499,3 +499,22 @@ p  { margin: 0 0 1.1em; max-width: 66ch; }
   .offer__action { text-align: left; }
   .offer__note { margin-left: 0; }
 }
+
+
+/* ---------- team tiers ---------- */
+.people--duo {
+  grid-template-columns: repeat(2, minmax(0, 240px));
+  justify-content: center;
+  gap: 44px 72px;
+}
+.people--duo .person img { max-width: 230px; }
+.people--trio {
+  grid-template-columns: repeat(3, minmax(0, 210px));
+  justify-content: center;
+}
+.tier .tier__label { margin-bottom: 40px; }
+.tier + .tier { margin-top: 12px; }
+@media (max-width: 680px) {
+  .people--duo { grid-template-columns: repeat(2, 1fr); gap: 30px 20px; }
+  .people--trio { grid-template-columns: repeat(2, 1fr); }
+}

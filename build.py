@@ -142,9 +142,12 @@ FIRMS = [
     "North American Development Group", "Lee Chow Group", "Epic Investment Services",
 ]
 
-TEAM = [
-    ("erica-chan", "Erica Chan", "Co-President", "echan.hba2027@ivey.ca"),
+PRESIDENTS = [
     ("jesse-dale", "Jesse Dale", "Co-President", "jdale.hba2027@ivey.ca"),
+    ("erica-chan", "Erica Chan", "Co-President", "echan.hba2027@ivey.ca"),
+]
+
+VPS = [
     ("maia-lucchese", "Maia Lucchese", "VP Internal", ""),
     ("nicole-reeve", "Nicole Reeve", "VP Education", ""),
     ("nikola-petkovski", "Nikola Petkovski", "VP External", "npetkovski.hba2027@ivey.ca"),
@@ -152,6 +155,9 @@ TEAM = [
     ("gianmarco-bruni", "Gianmarco Bruni", "VP Events", ""),
     ("brooke-mirabella", "Brooke Mirabella", "VP Finance", ""),
     ("lina-deyrmenjian", "Lina Deyrmenjian", "VP Communications", ""),
+]
+
+ANALYSTS = [
     ("justin-lang", "Justin Lang", "Head Analyst", ""),
     ("elena-vlitas", "Elena Vlitas", "Head Analyst", ""),
     ("ashlee-wittlin", "Ashlee Wittlin", "Head Analyst", ""),
@@ -465,11 +471,11 @@ events = f"""<section class="pagehead">
     <div class="grid grid--2" style="margin-top:52px">
       <div class="pillar">
         <h3>Meet the Firm</h3>
-        <p>Run with the Ivey Career Management team, these on-campus sessions give students a direct look at a firm's business, culture, and hiring. Presentations from senior leaders, insight from recent alumni, and Q&amp;A with recruiters. Recent guests include Harrison Street Asset Management and QuadReal.</p>
+        <p>Run with the Ivey Career Management team, these on-campus sessions give students a direct look at a firm's business, culture, and hiring. Presentations from senior leaders, insight from recent alumni, and Q&amp;A with recruiters. Past firms include Oxford Properties Group, QuadReal, and Harrison Street Asset Management.</p>
       </div>
       <div class="pillar">
         <h3>CRE Learning Sessions</h3>
-        <p>Technical workshops that build practical skill. Liam Sauro (Partner) and Emily Forster (VP, Asset Management) of Lee Chow Group walked members through a full development model — the analytical side of the industry, taught by people who do it daily.</p>
+        <p>Technical modelling and interview preparation seminars, led by club executives alongside senior professionals from the industry. Sessions cover development and valuation models line by line, and the technical questions members will face in recruiting.</p>
       </div>
       <div class="pillar">
         <h3>Case competitions</h3>
@@ -504,9 +510,28 @@ team = f"""<section class="pagehead">
 
 <section class="section">
   <div class="wrap">
-    <div class="people">
-{people_html(TEAM)}
+
+    <div class="tier">
+      <div class="tier__label"><h3>Co-Presidents</h3><span class="rule-grow"></span></div>
+      <div class="people people--duo">
+{people_html(PRESIDENTS)}
+      </div>
     </div>
+
+    <div class="tier">
+      <div class="tier__label"><h3>Portfolio VPs</h3><span class="rule-grow"></span></div>
+      <div class="people">
+{people_html(VPS)}
+      </div>
+    </div>
+
+    <div class="tier" style="margin-bottom:0">
+      <div class="tier__label"><h3>Head Analysts</h3><span class="rule-grow"></span></div>
+      <div class="people people--trio">
+{people_html(ANALYSTS)}
+      </div>
+    </div>
+
   </div>
 </section>
 
