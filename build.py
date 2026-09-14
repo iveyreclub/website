@@ -228,7 +228,7 @@ home = f"""<section class="hero">
       <div class="hero__copy">
         <p class="hero__eyebrow">Student-led at the Ivey Business School since 2014</p>
         <h1 class="h1--long">Connecting Ivey HBA Students to the Commercial Real Estate Industry</h1>
-        <p>We prepare students for careers in commercial real estate — technical workshops, live transaction analysis, and interview preparation — and connect them directly to the firms hiring, in Toronto, New York, London, and beyond.</p>
+        <p>We prepare students for careers in commercial real estate — technical workshops, live transaction analysis, and interview preparation — and connect them directly to recruiters and industry professionals in Toronto, New York, London, and beyond.</p>
         <div class="btn-row">
           <a class="btn btn--light" href="join.html">Join IREC</a>
           <a class="btn btn--outline-light" href="events.html#day-on-bay">See Day on Bay</a>
