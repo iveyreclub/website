@@ -482,8 +482,8 @@ events = f"""<section class="pagehead">
         <p>IREC teams represent Ivey at leading real estate case competitions. At the 2026 Expand Your Empire competition hosted by TMU, the IREC team took First Place and the Most Feasible Design Award.</p>
       </div>
       <div class="pillar">
-        <h3>Senior Leaders Panel</h3>
-        <p>An on-campus panel on leadership, market conditions, and career paths — most recently with Ali Damji (Forum Asset Management), Adrian Rocca (Fitzrovia), and Kevin Leon (Crestpoint), followed by an open Q&amp;A.</p>
+        <h3>Market publications</h3>
+        <p>The IREC Review, our weekly newsletter covering market developments and notable transactions, alongside quarterly analyst market reports going deeper on a sector or theme. Both are written by the analyst team and circulated to members and alumni.</p>
       </div>
     </div>
   </div>
@@ -539,14 +539,14 @@ team = f"""<section class="pagehead">
   <div class="wrap">
     <div class="grid grid--split">
       <div>
-        <span class="kicker">Get in touch</span>
-        <h2>Who to email.</h2>
+        <span class="kicker">Contact</span>
+        <h2>Get in touch.</h2>
       </div>
       <div>
-        <p>For anything about membership, events, or the club generally, write to either Co-President. For sponsorship, partnerships, and firm relationships, reach our VP External team directly.</p>
+        <p>Questions about membership, events, sponsorship, or anything else to do with the club — one email reaches both Co-Presidents.</p>
         <p>Sponsorship and partnership arrangements apply to the 2026/27 school year.</p>
         <div class="btn-row">
-          <a class="btn btn--solid" href="mailto:jdale.hba2027@ivey.ca">Email the Co-Presidents</a>
+          <a class="btn btn--solid" href="mailto:jdale.hba2027@ivey.ca,echan.hba2027@ivey.ca?subject=Ivey%20Real%20Estate%20Club%20enquiry">Email us</a>
           <a class="btn btn--ghost" href="partners.html">Partnership information</a>
         </div>
       </div>
