@@ -13,6 +13,7 @@ NAV = [
 
 APP_CLOSE = "2026-09-25T23:59:00"
 APPLY_URL = "https://forms.gle/v6hqvXNeYxCrPAKw6"
+MEMBERSHIP_URL = "https://www.universe.com/events/2026-ivey-hbaa-clubs-week-tickets-7SZY4K"
 
 
 def shell(page, title, description, body, status=True):
@@ -640,8 +641,8 @@ join = f"""<section class="pagehead">
         <p style="margin-bottom:0">Club membership is open to every HBA student, whatever year you're in and whether or not you apply for a role on the team. Members get access to IREC's full programming calendar for the year.</p>
       </div>
       <div class="offer__action">
-        <span class="btn btn--disabled" aria-disabled="true" role="link">Coming soon</span>
-        <p class="offer__note">The membership purchase link goes live shortly. Watch IREC's Instagram for the announcement.</p>
+        <a class="btn btn--solid btn--lg" href="{MEMBERSHIP_URL}" target="_blank" rel="noopener">Buy a membership</a>
+        <p class="offer__note">Memberships are sold through the Ivey HBAA Clubs Week page. Select the Ivey Real Estate Club when you check out.</p>
       </div>
     </div>
   </div>
