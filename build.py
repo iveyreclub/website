@@ -101,7 +101,7 @@ def shell(page, title, description, body, status=True):
         <ul>
           <li><a href="partners.html">Partner with us</a></li>
           <li><a href="events.html#day-on-bay">Day on Bay</a></li>
-          <li><a href="mailto:jdale.hba2027@ivey.ca">Sponsorship enquiries</a></li>
+          <li><a href="mailto:jdale.hba2027@ivey.ca,echan.hba2027@ivey.ca?subject=Ivey%20Real%20Estate%20Club%20partnership">Sponsorship enquiries</a></li>
         </ul>
       </div>
       <div>
@@ -575,7 +575,7 @@ partners = f"""<section class="pagehead">
         <p class="lede">IREC members are the Ivey students who have already decided real estate is the career. They apply, they show up, and they recruit hard.</p>
         <p>Partnership puts your firm in front of that group directly: an on-campus information session, a technical workshop taught by your team, a Day on Bay office visit, or a panel seat. Our partners consistently tell us the calibre of question in the room is the reason they come back.</p>
         <div class="btn-row">
-          <a class="btn btn--solid" href="mailto:jdale.hba2027@ivey.ca">Start a conversation</a>
+          <a class="btn btn--solid" href="mailto:jdale.hba2027@ivey.ca,echan.hba2027@ivey.ca?subject=Ivey%20Real%20Estate%20Club%20partnership">Start a conversation</a>
         </div>
       </div>
     </div>
@@ -638,7 +638,7 @@ partners = f"""<section class="pagehead">
       </div>
     </div>
     <div class="note" style="margin-top:52px">
-      <p>Sponsorship and partnership arrangements are set annually and currently apply to the 2026/27 school year. To discuss a package, email Jesse Dale and Erica Chan, Co-Presidents, at <a href="mailto:jdale.hba2027@ivey.ca">jdale.hba2027@ivey.ca</a>.</p>
+      <p>Sponsorship and partnership arrangements are set annually and currently apply to the 2026/27 school year. To discuss a package, email Jesse Dale and Erica Chan, Co-Presidents, at <a href="mailto:jdale.hba2027@ivey.ca">jdale.hba2027@ivey.ca</a> and <a href="mailto:echan.hba2027@ivey.ca">echan.hba2027@ivey.ca</a>.</p>
     </div>
   </div>
 </section>
