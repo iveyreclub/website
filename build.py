@@ -133,15 +133,17 @@ def shell(page, title, description, body, status=True):
 FIRMS = [
     "BMO Capital Markets", "Oxford Properties", "CBRE", "QuadReal", "Hines",
     "KingSett Capital", "CIBC", "Eastdil Secured", "Colliers", "Fitzrovia",
-    "Tricon Residential", "Harrison Street", "Wells Fargo", "RBC",
+    "Tricon Residential", "Harrison Street", "Wells Fargo", "RBC Capital Markets",
+    "TD Securities", "Blackstone", "Crestpoint", "Cadillac Fairview",
+    "Ontario Teachers'",
     "Choice Properties", "Welltower", "Beedie", "Nicola Wealth", "Opus",
     "First Capital", "Cresa", "Desjardins", "Harbour Equity",
     "North American Development Group", "Lee Chow Group", "Epic Investment Services",
 ]
 
 TEAM = [
-    ("jesse-dale", "Jesse Dale", "Co-President", "jdale.hba2027@ivey.ca"),
     ("erica-chan", "Erica Chan", "Co-President", "echan.hba2027@ivey.ca"),
+    ("jesse-dale", "Jesse Dale", "Co-President", "jdale.hba2027@ivey.ca"),
     ("maia-lucchese", "Maia Lucchese", "VP Internal", ""),
     ("nicole-reeve", "Nicole Reeve", "VP Education", ""),
     ("nikola-petkovski", "Nikola Petkovski", "VP External", "npetkovski.hba2027@ivey.ca"),
@@ -625,6 +627,22 @@ join = f"""<section class="pagehead">
     <div class="btn-row">
       <a class="btn btn--light" href="{APPLY_URL}" rel="noopener">Start your application</a>
       <a class="btn btn--outline-light" href="#roles">Read the roles first</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="offer">
+      <div>
+        <span class="kicker">Membership</span>
+        <h2 style="margin-bottom:.35em">Become a member for 2026/27</h2>
+        <p style="margin-bottom:0">Club membership is open to every HBA student, whatever year you're in and whether or not you apply for a role on the team. Members get access to IREC's full programming calendar for the year.</p>
+      </div>
+      <div class="offer__action">
+        <span class="btn btn--disabled" aria-disabled="true" role="link">Coming soon</span>
+        <p class="offer__note">The membership purchase link goes live shortly. Watch IREC's Instagram for the announcement.</p>
+      </div>
     </div>
   </div>
 </section>
